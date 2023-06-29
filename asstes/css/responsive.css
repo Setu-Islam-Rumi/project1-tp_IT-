@@ -1,0 +1,213 @@
+
+/* For tab Device......... */
+@media (max-width:992px) {
+   
+    
+/* header........... */
+nav{
+    display: none;
+    position: absolute;
+}
+
+header .nav_bar ul {
+    display: block;
+    width: 440px;
+    /* padding: 10px 0 10px 14px; */
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #013289;   
+    z-index: -1; 
+    margin-top: 650px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px;
+}
+
+header .toggle_btn{
+    border: none;
+    font-size: 30px;
+    background: white;
+    display: block;
+}
+header a:hover{
+    color: #4154F1;
+}
+.getstarted{
+    width: 100%;
+    margin-left: -18px;
+}
+
+
+.getstarted:hover{
+    color: white;
+    opacity: 0.92;
+}
+
+ /* banner section */
+
+ #banner_section{
+    margin-top: 96px;
+    margin:  0px;
+    background: #F2F5FC;
+}
+.inner_banner{
+    float: left;
+    width: 100%;
+}
+
+.banner_content{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#banner_section h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #012970;
+    margin-bottom: 20px;
+}
+
+#banner_section .commonBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30%;
+    margin-bottom: 90px;
+}
+/* about section......... */
+
+#about_section .container .content{
+    float: left;
+    width: 10%;
+}
+#about_section{
+    margin-top: 200px;
+    padding: 0px;
+}
+#about_section .container .content{
+    float: left;
+    width: 100%;
+}
+#about_section .container .img_container{
+    float: left;
+    width: 100%;
+}
+
+#about_section .container .img_container img{
+    width: 100%;
+    margin-left: 0px;
+}
+
+}
+
+
+
+
+/* for mobile device....... */
+@media (max-width:768px) {
+    /* header............ */
+
+    nav{
+        display: none;
+        position: absolute;
+    }
+
+    header .nav_bar ul {
+        display: block;
+        width: 440px;
+        /* padding: 10px 0 10px 14px; */
+        font-family: "Nunito", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        color: #013289;   
+        z-index: -1; 
+        margin-top: 650px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 1px 1px 20px 1px;
+    }
+
+    header .toggle_btn{
+        border: none;
+        font-size: 30px;
+        background: white;
+        display: block;
+    }
+    header a:hover{
+        color: #4154F1;
+    }
+    .getstarted{
+        width: 100%;
+        margin-left: -18px;
+    }
+
+
+    .getstarted:hover{
+        color: white;
+        opacity: 0.92;
+    }
+
+    /* banner section */
+
+    #banner_section{
+        padding-top: 50px;
+        background: #F2F5FC;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+
+    .inner_banner{
+        float: left;
+        width: 100%;
+    }
+
+    .banner_content{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #banner_section h1 {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 700;
+        color: #012970;
+        margin-bottom: 20px;
+    }
+    
+    #banner_section .commonBtn{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 30%;
+        margin-bottom: 90px;
+    }
+/* about section......... */
+
+    #about_section .container .content{
+        float: left;
+        width: 10%;
+    }
+    #about_section{
+        margin-top: 200px;
+        padding: 0px;
+    }
+    #about_section .container .content{
+        float: left;
+        width: 100%;
+    }
+    #about_section .container .img_container{
+        float: left;
+        width: 100%;
+    }
+
+    #about_section .container .img_container img{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+}
